@@ -35,7 +35,7 @@ const renderHits = (renderOptions, isFirstRender) => {
           // TODO: Dynamic link for episodes
           item =>
             `<tr>
-              <td><a href="/episode/2022-08-28">${item.episode}</a></td>
+              <td><a href="${BASE_URL}/episode/2022-08-28">${item.episode}</a></td>
               <td>${formatTimestamp(item.start_time)}</td>
               <td>${item.speaker}</td>
               <td>${instantsearch.highlight({attribute: 'content', hit: item})}</td>

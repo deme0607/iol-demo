@@ -1,7 +1,10 @@
 {{ partial "header" . }}
+<script>
+  const BASE_URL = "{{ .Site.BaseURL }}";
+</script>
 <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.14.3/dist/algoliasearch-lite.umd.js" integrity="sha256-dyJcbGuYfdzNfifkHxYVd/rzeR6SLLcDFYEidcybldM=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.51.1/dist/instantsearch.production.min.js" integrity="sha256-y6I4MY/blLHk4a7G33zp97DcnBFRY2iMId4FObo8toI=" crossorigin="anonymous"></script>
-<script src="/js/algolia.js"></script>
+<script src="{{ .Site.BaseURL }}/js/algolia.js"></script>
 <article>
 	<header>
 		{{ partial "title" . }}
