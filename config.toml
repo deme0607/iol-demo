@@ -1,5 +1,5 @@
 baseURL = "example.com"
-title = "IN OUR LIFE"
+title = "(DEMO) IN OUR LIFE"
 theme = "manis"
 
 # Copyright notice. Note: You can use HTML tag here
@@ -13,7 +13,7 @@ paginate = 10
 disqusShortname = ""
 
 # Edit this if you want to translate your blog
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 
 # Code Highlighting (Chroma)
 pygmentsCodeFences = true
@@ -24,9 +24,9 @@ pygmentsUseClasses = true
 		name = "Episode"
 		url = "/episode/"
 
-	[[menu.main]]
-		name = "About"
-		url = "/about"
+  [[menu.main]]
+    name = "Search"
+    url = "/search"
 
 [taxonomies]
 	tag = "tags"
@@ -40,9 +40,9 @@ pygmentsUseClasses = true
 	# Site meta description
 	description = "IN OUR LIFE Demo website created by @deme0607"
 	# Site's Tagline (Subtitle or Keyword)
-	tagline = "Culture にまつわるxについて。"
+	tagline = "Culture にまつわる x について。"
 	# If true give attribution to this theme
-	themeAttrib = true
+	themeAttrib = false
 	# URL to license file, can be outside of your domain
 	licenseURL = "/about/license"
 
@@ -83,7 +83,6 @@ pygmentsUseClasses = true
 	# email = "mail@yurizal-san.com"
 	# github = "https://github.com/yursan9/"
 	twitter = "https://twitter.com/inourlifefm"
-
 
 # Language Configuration
 #[languages.in]
